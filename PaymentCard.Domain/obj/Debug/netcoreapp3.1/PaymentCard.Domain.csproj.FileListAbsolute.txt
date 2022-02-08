@@ -1,0 +1,13 @@
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\bin\Debug\netcoreapp3.1\PaymentCard.Domain.deps.json
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\bin\Debug\netcoreapp3.1\PaymentCard.Domain.runtimeconfig.json
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\bin\Debug\netcoreapp3.1\PaymentCard.Domain.runtimeconfig.dev.json
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\bin\Debug\netcoreapp3.1\PaymentCard.Domain.dll
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\bin\Debug\netcoreapp3.1\PaymentCard.Domain.pdb
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.csproj.AssemblyReference.cache
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.AssemblyInfoInputs.cache
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.AssemblyInfo.cs
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.csproj.CoreCompileInputs.cache
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.dll
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.pdb
+C:\Users\chiqo\source\repos\PaymentCard.API\PaymentCard.Domain\obj\Debug\netcoreapp3.1\PaymentCard.Domain.genruntimeconfig.cache

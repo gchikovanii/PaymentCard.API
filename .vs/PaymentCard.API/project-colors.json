@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "80371df6-3d89-4d02-aed7-b16bc721e47d": {
+      "ProjectGuid": "80371df6-3d89-4d02-aed7-b16bc721e47d",
+      "DisplayName": "PaymentCard.API",
+      "ColorIndex": 0
+    },
+    "4930d6e0-769f-4d4f-b592-5239e69a9b11": {
+      "ProjectGuid": "4930d6e0-769f-4d4f-b592-5239e69a9b11",
+      "DisplayName": "PaymentCard.Application",
+      "ColorIndex": 1
+    },
+    "23daf6e2-9805-4334-85da-3d713a2b4ed3": {
+      "ProjectGuid": "23daf6e2-9805-4334-85da-3d713a2b4ed3",
+      "DisplayName": "PaymentCard.Domain",
+      "ColorIndex": 2
+    },
+    "f625c3ce-5367-4c77-997f-d050cc87cc32": {
+      "ProjectGuid": "f625c3ce-5367-4c77-997f-d050cc87cc32",
+      "DisplayName": "PaymentCard.Infrastructure",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
