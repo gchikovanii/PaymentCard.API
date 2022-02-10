@@ -22,7 +22,7 @@ namespace PaymentCard.Application.Command.CardAggregate
             var card = await _cardRepository.GetQuery(i => i.Id == request.Id).SingleOrDefaultAsync();
             if (card != null)
             {
-                _cardRepository.Update(card);
+                _cardRepository.Delete(card);
                 return await _cardRepository.SaveChangesAsync();
             }
             else

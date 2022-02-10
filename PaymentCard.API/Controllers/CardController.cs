@@ -44,7 +44,7 @@ namespace PaymentCard.API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetHotelById(int id)
+        public async Task<IActionResult> GetCardById(int id)
         {
             var hotel = await _cardService.GetCardsById(id);
             return Ok(hotel);
