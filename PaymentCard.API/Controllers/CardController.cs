@@ -14,10 +14,12 @@ namespace PaymentCard.API.Controllers
     {
         private readonly IMediator _mediator;
         private readonly ICardService _cardService;
-        public CardController(IMediator mediator, ICardService cardService)
+        private readonly ApplicationDbContext _dbcontext;
+        public CardController(IMediator mediator, ICardService cardService, ApplicationDbContext dbcontext)
         {
             _mediator = mediator;
             _cardService = cardService;
+            _dbcontext = dbcontext;
         }
 
         [HttpGet]
@@ -31,23 +33,33 @@ namespace PaymentCard.API.Controllers
         {
             return Ok(await _mediator.Send(input));
         }
-        [HttpPut]
-        public async Task<IActionResult> UpdateCard(UpdateCardCommand input)
-        {
-            return Ok(await _mediator.Send(input));
-        }
-        [HttpDelete]
 
-        public async Task<IActionResult> DeleteCard(DeleteCardCommand input)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateCard(int id, UpdateCardCommand input)
         {
-            return Ok(await _mediator.Send(input));
+            var card = await _cardService.GetCardsById(id);
+            if (card != null)
+                return Ok(await _mediator.Send(input));
+            else
+                return null;
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCardById(int id)
+        {
+
+            var card = await _dbcontext.Cards.FindAsync(id);
+            if (card == null)
+                return NotFound();
+            _dbcontext.Remove(card);
+            return Ok(await _dbcontext.SaveChangesAsync());
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCardById(int id)
         {
-            var hotel = await _cardService.GetCardsById(id);
-            return Ok(hotel);
+            var card = await _cardService.GetCardsById(id);
+            return Ok(card);
         }
 
 
